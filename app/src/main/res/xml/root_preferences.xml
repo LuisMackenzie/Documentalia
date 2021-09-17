@@ -1,0 +1,125 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/aparience">
+
+        <ListPreference
+            app:entries="@array/themes_entries"
+            app:entryValues="@array/themes_values"
+            app:key="choose_theme"
+            app:title="@string/choose_theme"
+            app:icon="@drawable/ic_dark_mode_black"
+            app:summary="Aqui puedes Escoger un tema"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/player">
+
+        <ListPreference
+            app:entries="@array/player_entries"
+            app:entryValues="@array/player_values"
+            app:key="player_values"
+            app:title="@string/player_select"
+            app:icon="@drawable/ic_smart_display_black"
+            app:useSimpleSummaryProvider="true" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="acelerate_hw"
+            android:icon="@drawable/ic_smart_display_black"
+            android:summary="@string/summary_hw"
+            android:title="@string/hardware_off" />
+
+        <ListPreference
+            app:defaultValue="espanyol"
+            app:entries="@array/audio_entries"
+            app:entryValues="@array/audio_values"
+            app:key="audio"
+            app:icon="@drawable/ic_volume_up_black"
+            app:title="@string/audio_pref"
+            app:summary="@string/audio_prefs"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="acelerate_opensl"
+            android:icon="@drawable/ic_volume_up_black"
+            android:summary="@string/summary_sound"
+            android:title="@string/opensl_off" />
+
+        <SwitchPreferenceCompat
+            app:key="acestream"
+            app:icon="@drawable/ic_podcasts_black"
+            app:title="@string/use_acestream"
+            app:summaryOn="@string/acestream_on" />
+
+        <SwitchPreferenceCompat
+            app:dependency="acestream"
+            app:key="ace_attach"
+            app:icon="@drawable/ic_podcasts_black"
+            app:summaryOff="@string/acestream_links_on"
+            app:summaryOn="@string/acetream_links_on"
+            app:title="@string/acestream_links" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="youtube"
+            android:icon="@drawable/ic_smart_display_black"
+            android:summary="@string/youtube_ext_summary"
+            android:title="@string/youtube_ext" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Navegador Web">
+
+        <ListPreference
+            app:defaultValue="google"
+            app:entries="@array/web_entries"
+            app:entryValues="@array/web_values"
+            app:key="web_engine"
+            app:icon="@drawable/ic_search_black"
+            app:title="@string/search_engine"
+            app:summary="@string/search_engine_summary"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Google Play">
+
+        <Preference
+            app:selectable="true"
+            app:key="info_dev"
+            app:icon="@drawable/ic_shop_black"
+            app:summary="@string/dev_info"
+            app:title="@string/dev_info_title">
+            <intent
+                android:targetPackage="com.mackenzie.documentalia03.Activities"
+                android:targetClass="com.mackenzie.documentalia03.Activities.DevInfoActivity"/>
+
+        </Preference>
+
+        <Preference
+            app:selectable="true"
+            app:key="update_app"
+            app:icon="@drawable/ic_shop_black"
+            app:summary="@string/update_app_settings"
+            app:title="@string/update_app_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.wiseplay"/>
+
+        </Preference>
+
+        <Preference
+            app:selectable="true"
+            app:key="beta_testing"
+            app:icon="@drawable/ic_shop_black"
+            app:summary="@string/beta_testing_summay"
+            app:title="@string/beta_testing">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher"/>
+
+        </Preference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

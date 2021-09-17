@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_channels"
+            android:icon="@drawable/ic_tv"
+            android:title="Live Channels" />
+
+        <item
+            android:id="@+id/menu_ondemand"
+            android:icon="@drawable/ic_library"
+            android:title="Docs By Category" />
+
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search Content" />
+
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/menu_option1"
+                android:icon="@drawable/ic_settings_black"
+                android:title="Settings" />
+            <item
+                android:id="@+id/menu_option2"
+                android:icon="@drawable/ic_update"
+                android:title="Update App" />
+            <item
+                android:id="@+id/menu_option3"
+                android:icon="@drawable/ic_telegram"
+                android:title="Telegram" />
+            <item
+                android:id="@+id/menu_option4"
+                android:icon="@drawable/ic_exit"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

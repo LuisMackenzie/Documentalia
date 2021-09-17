@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MacKenzie Docs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="mackenzie_docs">MacKenzie Docs</string>
+    <string name="aparience">Apariencia</string>
+    <string name="choose_theme">Escoge un Tema</string>
+    <string name="player_select">Selecciona un reproductor</string>
+    <string name="player_info">Establece el reproductor que se usara para reproducir</string>
+    <string name="opensl_off">Desactivar OpenSL</string>
+    <string name="hardware_off">Desactivar aceleracion por HW</string>
+    <string name="use_acestream">Usar motor interno Acestream</string>
+    <string name="acestream_links">Abrir enlaces con Acestream</string>
+    <string name="acetream_links_on">Abre los enlaces de Acestream con apps externas</string>
+    <string name="acestream_links_on">Se esta usando el reproductor interno para enlaces Acestream (Recomendado)</string>
+    <string name="acestream_on">Se usara el reproductor interno para reproducir enlaces Acestream</string>
+    <string name="summary_hw">Desactiva la reproducción de vídeos acelerada por hardware</string>
+    <string name="summary_sound">Desactiva la aceleracion por hardware en la reproduccion de audio</string>
+    <string name="search_engine">Motor de búsqueda</string>
+    <string name="search_engine_summary">Establece el motor de busqueda para el navegador</string>
+    <string name="youtube_ext">Abrir enlaces de Youtube extrenamente</string>
+    <string name="youtube_ext_summary">Abre los enlaces de Youtube con la app oficial</string>
+    <string name="audio_pref">Idioma de audio preferido</string>
+    <string name="beta_testing">Participar en el programa de betas</string>
+    <string name="beta_testing_summay">Accede a las últimas caracteristicas uniendote al programa de betas de Google Play</string>
+    <string name="audio_prefs">Establece un idioma de audio preferido para la reproducción</string>
+    <string name="player">Reproductor de Video</string>
+    <string name="exo_selected">Reproductor Exoplayer seleccionado</string>
+    <string name="auto_selected">Reproductor automático seleccionado</string>
+    <string name="system_selected">Reproductor del sistema seleccionado</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- type of errors -->
+    <string name="error_source">Source is not Available</string>
+    <string name="error_type">Videocodec incompatible</string>
+    <string name="error_unknown">Unexpected error Bug!</string>
+    <string name="dev_info">Información sobre el desarrollador</string>
+    <string name="update_app_settings">Actualiza para obtener las últimas mejoras y características</string>
+    <string name="dev_info_title">Sobre el desarrollador</string>
+    <string name="update_app_title">Actualizar la aplicación</string>
+</resources>
