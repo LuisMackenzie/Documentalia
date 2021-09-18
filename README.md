@@ -21,16 +21,16 @@ git clone --recursive https://github.com/LuisMackenzie/TicTacToe-Game.git
 
 ### Notice
 
-This project does not include live broadcasts of any kind. It is a project with educational purposes.
+This project does not include copyrighted live broadcasts of any kind. It is a project with educational purposes. The live broadcasts that have been used are copyright free.
 
 
 ## Built with 🛠️
 
 * [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
 * [Gradle](https://gradle.org/) - Dependency manager
-* [Firebase Firestore](https://firebase.google.com/?hl=es) - Flexible, scalable, cloud-based firebase NoSQL database
-* [Firebase Authentication](https://firebase.google.com/?hl=es) - Firebase Authentication provides backend services and UI libraries ready to authenticate users.
-* [AirBNB](https://airbnb.io/lottie/) - Lottie is a library for Android that parses Adobe AE animations exported as json with Bodymovin and renders them natively
+* [Firebase Firestore](https://firebase.google.com/?hl=es) - 
+* [Firebase Authentication](https://firebase.google.com/?hl=es) - 
+* [AirBNB](https://airbnb.io/lottie/) - 
 
 ## Autors ✒️
 
