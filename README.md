@@ -10,7 +10,6 @@ Es una app que permite el visionado de canales y transmisiones en vivo(live Stre
 
 * [Android SDK Tools](https://developer.android.com/studio#Other)
 
-* [Firebase Account](https://firebase.google.com/?hl=es)
 
 ### Build & Run the application 🔧
 
@@ -22,10 +21,7 @@ git clone --recursive https://github.com/LuisMackenzie/TicTacToe-Game.git
 
 ### Notice
 
-To use the *Firebase Firestore DB* you need to configure a Firestore DB in a *Firebase Project*:
-* Create a Cloud Firestore database
-* Add Firebase to your Android project. Follow the directions here: https://firebase.google.com/docs/android/setup
-* Set up your development environment adding the required dependencies
+This project does not include live broadcasts of any kind. It is a project with educational purposes.
 
 
 ## Built with 🛠️
