@@ -1,6 +1,6 @@
 # Documentalia
 
-Es una app que permite el visionado de canales y transmisiones en vivo(live Streams) y otros tipos de videos(Streams)
+It is an app that allows the viewing of channels and live broadcasts (live Streams) and any type of videos (Streams)
 
 ## Getting Started 🚀
 
