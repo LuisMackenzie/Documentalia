@@ -27,10 +27,12 @@ This project does not include copyrighted live broadcasts of any kind. It is a p
 ## Built with 🛠️
 
 * [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
-* [Gradle](https://gradle.org/) - Dependency manager
-* [Firebase Firestore](https://firebase.google.com/?hl=es) - 
-* [Firebase Authentication](https://firebase.google.com/?hl=es) - 
-* [AirBNB](https://airbnb.io/lottie/) - 
+* [Gradle](https://gradle.org/) - Gradle, is a tool and dependency manager that allows open source compilation automation, which is focused on flexibility and performance
+* [Glide](https://bumptech.github.io/glide/) - Glide is media management and image loading framework for Android
+* [Picasso](https://square.github.io/picasso/) - Picasso allows for hassle-free image loading in your application
+* [ExoPlayer](https://exoplayer.dev/) - ExoPlayer is an application level media player for Android. It provides an alternative to Android’s MediaPlayer API for playing audio and video both locally and over the Internet
+* [Gson](https://github.com/google/gson) - Library that can be used to convert Java Objects into their JSON representation.
+* [Volley](https://github.com/google/volley) - Volley is an HTTP library that facilitates and speeds up the use of networks in Android apps
 
 ## Autors ✒️
 
