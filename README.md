@@ -16,7 +16,7 @@ It is an app that allows the viewing of channels and live broadcasts (live Strea
 1. Get the source code.
 
 ```
-git clone --recursive https://github.com/LuisMackenzie/TicTacToe-Game.git
+git clone --recursive https://github.com/LuisMackenzie/Documentalia.git
 ```
 
 ### Notice
