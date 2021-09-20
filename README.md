@@ -23,6 +23,7 @@ It is an app that allows the viewing of channels and live broadcasts (live Strea
 ```
 git clone --recursive https://github.com/LuisMackenzie/Documentalia.git
 ```
+Get apk [here](https://www.google.es/)
 
 ### Notice
 
