@@ -25,8 +25,6 @@ git clone --recursive https://github.com/LuisMackenzie/Documentalia.git
 ```
 2. Or get apk [here](https://github.com/LuisMackenzie/Documentalia/raw/master/Documentalia.apk)
 
-https://github.com/LuisMackenzie/Documentalia/raw/master/Documentalia.apk
-
 ### Notice
 
 This project does not include copyrighted live broadcasts of any kind. It is a project with educational purposes. The live broadcasts that have been used are copyright free.
