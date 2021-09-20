@@ -24,6 +24,9 @@ It is an app that allows the viewing of channels and live broadcasts (live Strea
 git clone --recursive https://github.com/LuisMackenzie/Documentalia.git
 ```
 2. Or get apk [here](https://github.com/LuisMackenzie/Documentalia/blob/master/Documentalia.apk)
+3. Or get apk [here](https://github.com/LuisMackenzie/Documentalia/raw/master/Documentalia.apk)
+
+https://github.com/LuisMackenzie/Documentalia/raw/master/Documentalia.apk
 
 ### Notice
 
