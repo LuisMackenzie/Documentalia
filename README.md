@@ -5,7 +5,7 @@ It is an app that allows the viewing of channels and live broadcasts (live Strea
 | <img src="docs_resources/home.png"> | <img src="docs_resources/navigation.png"> | <img src="docs_resources/settings.png"> |
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
 | <img src="docs_resources/home_night.png"> | <img src="docs_resources/navigation_night.png"> | <img src="docs_resources/settings_night.png"> |
-| <img src="docs_resources/splash.png"> | <img src="docs_resources/categories_night.png"> |  |
+| <img src="docs_resources/splash.png"> | <img src="docs_resources/categories_night.png"> |
 
 ## Getting Started 🚀
 
