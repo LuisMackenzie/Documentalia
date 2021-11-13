@@ -43,6 +43,16 @@ public class SplashActivity extends AppCompatActivity {
         task = new TimerTask() {
             @Override
             public void run() {
+/*
+ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
+
+        Intent in = new Intent(MainActivity.this, ViewerActivity.class);
+        bun.putInt("selection", selection);
+        // agregamos el bundle al intent
+        in.putExtra("bundle", bun);
+        startActivity(in, options.toBundle());
+    }
+*/
                 Intent intent = new Intent().setClass(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
