@@ -62,7 +62,7 @@ public class ExoPlayerView extends FrameLayout implements Player.EventListener {
 
     }
 
-    @Override
+
     public void onPlayerError(ExoPlaybackException error) {
         // super.onPlayerError(error);
         Log.e("Exoplayer", "Error: ", error);

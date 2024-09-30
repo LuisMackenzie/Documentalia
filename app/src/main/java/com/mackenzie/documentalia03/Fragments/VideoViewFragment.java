@@ -121,7 +121,7 @@ public class VideoViewFragment extends DialogFragment implements Player.EventLis
         }
     }
 
-    @Override
+
     public void onPlayerError(ExoPlaybackException error) {
         if (getContext() != null) {
             switch (error.type) {
