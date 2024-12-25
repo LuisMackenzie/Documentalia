@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdk 34
+    namespace 'com.mackenzie.documentalia03'
 
     defaultConfig {
         applicationId "com.mackenzie.documentalia03"
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 23
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
